@@ -1,52 +1,107 @@
-/** css for my student profile! **/
-
-
 * {
-    box-sizing: border-box;
-    text-align: center;
-    font-family: sans-serif;
-    display:inline-block;
-  }
+  box-sizing: border-box;
+/* Background pattern from Toptal Subtle Patterns */
+  /* background:lightgray; */
+  background:#e6e6e6;
+}
 
+header {
+ 
+}
 
-  header 
-  #main_logo {
-    float: left;
-    padding: 10px;
-    width: 20%;
-    color:#fff;
-    background: #30948D;
-    z-index: 1;
-  }
+body {
+  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: left;
+  font-size: 16px;
+  line-height: 12px;
+  color: #333;
+}
+
+img {
+  width: 250px;
+  padding: 20px;
+  height: auto;
+  float:left;
+  background: #fff
+}
+
+p {
+  padding-top: 10px;
+  background: #ffffff;
+  color: gray;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  background: #ffffff;
+  color: #4aaaa5;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-bottom: 4px solid #dddddd;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ffffff;
+  width: 960px;
+}
+
+.clearfix {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+#mid {
+  float: left;
+  width: 960px;;
+  height: auto;
+  color: #333333;
+  background: #ffffff;
+  margin-top: 20px; 
+  margin-right:50px; 
+  margin-left: 50px; 
+  margin-bottom:50px;
+}
+
+#logo {
+  text-align: center;
+  font-size: 28px;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  float: left;
+  width: 200px;
+  height: auto;
+  padding: 30px;
+  margin-left: 40px;
+  color: #fff;
+  background: #4aaaa5;
+  border: 1px solid #eee;
+}
 
 #links_bar {
-    float:right;
-    padding: 20px;
-    width: 100%;
-    height:30px;
-    border: 2px solid #cccccc;
-    background: #ffffff;;
-    color:gray;
+  float:right;
+  text-align: right;
+  padding: 20px;
+  width: 100%;
+  height:30px;
+  background: #ffffff;
+}    
+
+#navbar {
+  width: 100%;
+  overflow: auto;
+  color: #fff;
+  background: #ffffff;
+  border-bottom: 4px solid #dddddd;
 }
 
-#sweet_pic {
-   
-    shape-margin: 20px;
-    padding: 10%;
+
+footer {
+  height: 50px;
+  width: 100%;
+  margin-top: 5%;
+  background:gray;
+  border-top: 10px solid #4aaaa5;
 }
-
-#main_content {
-    border:2px solid #cccccc;
-    margin-top: 20px;
-    padding: 20px;
-    font-family: sans-serif;
-}
-
-#left {
-    float: left;
-    padding: 10px;
-    width: 20%;
-    color:#fff;
-    background: #30948D;
-  }
-
