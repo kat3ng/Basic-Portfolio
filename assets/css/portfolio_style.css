@@ -15,7 +15,7 @@ img {
 }
 
 .h3 {
-  position: relative;
+  position: static;
   top:1;
   text-align: center;
   font-size: 28px;
@@ -46,6 +46,8 @@ img {
    margin: 25px;
 
 }
+
+  /* alternate method */
 
 .row {
     display: -ms-flexbox; 
